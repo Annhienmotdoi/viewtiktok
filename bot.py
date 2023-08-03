@@ -26,8 +26,7 @@ else:
 			"clear"
 	)
 
-print("▶ Vao Nhom ZaLo ")
-os.system("xdg-open https://zalo.me/g/vtoxxt314")
+
 if "linux" in sys.platform.lower():
 	os.system(
 			"clear"
@@ -131,33 +130,20 @@ def title_loop():
         
     if os.name == "nt":
         while True:
-            os.system(f'title TikTok Viewbot by @xtekky ^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}')
+            os.system(f'title TikTok by @AT ^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}')
             time.sleep(0.1)
 
 if __name__ == "__main__":
-    os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Viewbot by @xtekky" if os.name == "nt" else "")
-    txt = """\n\n                    .';:lloolc;'.....
-                  ,lxOKXXNNNNXK00Oxl:.
-                .dk00KKKXXNNNXKKK0Okdc.
-                ,c,...,ldOKKKOd;....,c:.
-                ..,::'. .;dOl. .:dkxl.;'
-                ,odllc:'..KX;.;lc:;:c,,'
-                :;,'...;coKNdl:,...,,,:;
-                oKXKKXXNXOKNkkXXXKKKK0d;.
-                ;xkkOOOOKkKNkk0kkOOkxdc.
-                ...';cdd;,;:'';ldc;'..'.
-                 .:':kOkd. . .lkkxc..,..
-                  .c,,;;,,loc,,;;,.,l..
-                   .l;,c::;;;::,,.;c..
-                     ;lokOl .kxl:c,..
-                      .coOc .Oxl;.
-                         '; .:'
-                         
-                         
-                         
-[✓Admin:diệnpro-vănngọc-at-suachuanguyenchat-Code.Kalinux✓]
-[✓Bản Tool :Tăng View✓Tiktok]
-[✓Nhóm Zalo: ip để vào✓]                      """
+    os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok by @AT" if os.name == "nt" else "")
+    txt = """、、、＼＊＼☆、
+☆、＊＼、
+＼＼＊＼★＼、＼°
+。 ______ ★。＊
+☆./\_______\。☆＼
+…|_|_画_画_.|☆＼＊
+ღღღ__††††_ ღღღ _††
+»(¯°•.†l0v3U!.•°¯)« """                  
+    
     print(
         Colorate.Vertical(
             Colors.DynamicMIX((Col.light_blue, Col.purple)), Center.XCenter(txt)
@@ -165,7 +151,7 @@ if __name__ == "__main__":
     )
     
     try:
-        link = str(Write.Input("\n\n           Dán  +  link Video Coppy==>: ", Colors.yellow_to_red, interval=0.0001))
+        link = str(Write.Input("\n\n    url for buff here ==> ", Colors.yellow_to_red, interval=0.0001))
         __aweme_id = str(
             re.findall(r"(\d{18,19})", link)[0]
             if len(re.findall(r"(\d{18,19})", link)) == 1
@@ -176,11 +162,11 @@ if __name__ == "__main__":
         )
     except:
         os.system("cls" if os.name == "nt" else "clear")
-        input(Col.red + "x - Bạn Chưa Dán Link Video Thoát" + Col.reset)
+        input(Col.red + "x - paste your url, please  " + Col.reset)
         sys.exit(0)
     
     os.system("cls" if os.name == "nt" else "clear")
-    print("truy Cập Dữ Liệu...")
+    print("Loading.....")
     
     _lock = threading.Lock()
     reqs = 0

@@ -151,7 +151,7 @@ if __name__ == "__main__":
     )
     
     try:
-        link = str(Write.Input("copyright TikTok by AT-0933954440 and paste your url for buff here ==>", Colors.yellow_to_red, interval=0.0001))
+        link = str(Write.Input("\n\n Copyright TikTok by AT-0933954440 and paste your url for buff here ==>: ", Colors.yellow_to_red, interval=0.0001))
         __aweme_id = str(
             re.findall(r"(\d{18,19})", link)[0]
             if len(re.findall(r"(\d{18,19})", link)) == 1
